@@ -1,0 +1,76 @@
+.cont
+{
+  margin-top: 200px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+
+  border-radius: 10px;
+  box-shadow: 8px 8px 12px rgba(0,0,0,0.35);
+
+}
+div.container
+{
+  padding: 0px;
+}
+.num
+{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4ebd0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow:
+              inset 4px 4px 4px rgba(255,255,255,0.5),
+              inset -4px 0px 8px rgba(0,0,0,0.2);
+}
+.button-cnt
+{
+  height: 50px;
+
+}
+.buttons
+{
+  display: inline-block;
+  height: 50px;
+  width: 33.33333%;
+  border: 0px;
+}
+.buttons:focus
+{
+  outline: none;
+}
+.plus
+{
+  border-bottom-left-radius: 10px;
+  box-shadow:
+              inset 4px 0px 4px rgba(255,255,255,0.5),
+              inset 0px -4px 8px rgba(0,0,0,0.2);
+}
+.minus
+{
+  border-bottom-right-radius: 10px;
+  box-shadow: inset -4px -4px 8px rgba(0,0,0,0.2);
+}
+.side
+{
+  background-color: #f78259;
+  transition-duration: 0.3s;
+}
+.side:hover
+{
+  background-color: #eb4559;
+}
+.middle
+{
+  background-color: #ffcb74;
+  transition-duration: 0.3s;
+  box-shadow: inset 0px -4px 8px rgba(0,0,0,0.2);
+}
+.middle:hover
+{
+  background-color: #f6ab6c;
+}
